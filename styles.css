@@ -26,8 +26,20 @@
     height: 100%;
     min-height: 100%;
     display: block;
-    margin-top: -30px;
+    margin-top: -60px;
     margin-bottom: 0px; 
+    background-image: url("gayIP.png");
+    opacity: .85;
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:scroll;
+    
 }
 
 #news {
@@ -35,7 +47,7 @@
     height: 100%;
     min-height: 100%;
     display: block;
-    margin-top: -30px;
+    margin-top: -50px;
     margin-bottom: 0px; 
 }
 
@@ -44,12 +56,25 @@
     height: 100%;
     min-height: 100%;
     display: block;
-    margin-top: -30px;
+    margin-top: 10px;
     margin-bottom: 0px; 
+    background-image: url("abstract.jpg");
+    opacity: .99;
+    color:white;
+
+    /* Full height */
+     
+
+    /* Center and scale the image nicely */
+    
+    background-size:cover;
+    background-position:center;
+    overflow:scroll;
 }
 
 html, body {
     height: 100%;
+    
 }
 
 .fill { 
@@ -62,6 +87,7 @@ html, body {
 body {
       font: 400 25px/1.8 sans-serif;
       color: #000;
+      
   }
 h3, h4 {
       
@@ -81,7 +107,7 @@ h3, h4 {
       border: 0;
       font-size: 15px !important;
       letter-spacing: 4px;
-      opacity: 0.9;
+      opacity: .99;
   }
   .navbar li a, .navbar .navbar-brand { 
       color: #000000 !important;
@@ -125,16 +151,60 @@ h3, h4 {
 
   .fa {
     padding-right: 100px;
-    font-size:70px;
+    font-size:30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
     color:white;
    
   }
-
+  
   .fa:hover {
     opacity: 0.7;
+  }
+ 
+
+  #ab_overlay {
+    color:white;
+    font-family: Lucida, sans-serif;
+    letter-spacing: 10px; 
+    text-align: center;
+    font-size:30px;
+    top: 50%;
+    left: 50%;
+    border: 3px solid #000;
+    border-color:white;
+    
+    margin-right:250px;
+    margin-left:250px;
+    
+  }
+
+  #contact_text {
+    font-family: Lucida, sans-serif;
+    letter-spacing: 10px;
+    font-weight:bold;
+    font-size: 250;
+    border: 3px solid white;
+    overflow:scroll;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  a:-webkit-any-link{
+    text-decoration:none !important;
+  }
+
+  #submit {
+    overflow:scroll;
+    
+  }
+
+  #thisZine {
+    
+    
+
+
   }
 
   

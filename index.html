@@ -11,23 +11,12 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   
   <script type="text/javascript">
-    $(function() {
-      $('a[href*="#"]:not([href="#"])').click(function() {
-        var find = $(this.hash);
-        if(find.length) {
-          $("html, body").animate({
-            scrollTop: target.offset().top
-          }, 15000
-         );
-          
-        }
-      });
-    });
-  
+    
   </script>
 </head>
 
 <body id="IP_home" data-spy="scroll" data-target=".navbar" data-offset="50">
+
 
 
 <nav class="navbar default fixed-top">
@@ -69,22 +58,104 @@
 </span>
 
 <span class="container fill text-center">
+<a href="https://infinitepiss.bandcamp.com">
   <span id="next" style="background-color: white">
-    <h1>ABOUT</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <div class="bottom-left" id="ab_overlay">ISSUE ONE OUT NOW</div>
+    
   </span>
+  </a>
 </span>
 
 <span class="container fill text-center">
-  <span id="news" style="background-color: #747D74">
+  <span id="news">
     <h1>NEWS</h1>
   </span>
 </span>
 
-<span class="container fill text-center" id="contact">
-  <span style="background-color: white">
-    <h1>CONTACT</h1>
-  </span>
-</span>
+<div class="container fill" id="contact">
+<br>
+  
+   <div class="row">
+     <div class="col-md-3 float-right">
+     
+   </div>
+    
+ <div class="col-md-8">
+   <div class="row">
+   <div class="card bg-dark text-white">
+       <img class="card-img-top" id="thisZine" src="contact.jpg" alt="Card image">
+     </div>
+     <div class="col-sm-8 form-group">
+       <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+      </div>
+    </div>
+      
+    <div class="row">
+      <div class="col-sm-8 form-group"> 
+        <input class="form-control" id="email" name="email" placeholder="Email" type="text" required>
+      </div>
+    </div>
+     
+    <div class="row">
+       <div class="col-sm-8 form-group">
+        <select class="form-control" id="submissionType">
+         <option>Band/Musician</option>
+         <option>Artist</option>
+         <option>Writer</option>
+         <option>Photographer</option>
+         <option>Editor</option>
+        </select>
+       </div>
+   </div>
+
+   <div class="row">
+      <div class="col-sm-8 form-group"> 
+        <input class="form-control" id="genre" name="genre" placeholder="Genre" type="text" required>
+      </div>
+    </div>
+    
+   <div class="row">
+      <div class="col-sm-8 form-group"> 
+        <textarea class="form-control" id="links" rows="3" placeholder="Links to your work"></textarea>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8 form-group"> 
+        <textarea class="form-control" id="links" rows="3" placeholder="Tell Us More"></textarea>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8 form-group"> 
+        
+      </div>
+    </div>
+
+     <div class="row">
+      <div class="col-sm-8 form-group" id="submit"> 
+        <button type="button" class="btn btn-outline-dark btn-lg btn-block">Submit</button>
+
+      </div>
+    </div>
+ 
+
+   </div>
+ </div>
+</div>
+
+
 
 <footer class="text-center" id="footerIP">
    <a href="#" class="fa fa-facebook"></a>
