@@ -48,7 +48,7 @@
     height: 100%;
     min-height: 100%;
     display: block;
-    margin-top: -50px;
+    margin-top: -30px;
     margin-bottom: 0px; 
     overflow:scroll;
 }
@@ -220,10 +220,10 @@ h3, h4 {
 
  #firkin{
    height:600px;
-   width:auto;
+   
  }
  #reggie{
    height:560px;
-   width:auto;
+   
  }
   
