@@ -214,16 +214,36 @@ h3, h4 {
     text-decoration:none !important;
   }
 
-  #newsRow1{
-    align-items:flex-start;
+  .card-body{
+    font-size:small;
+    
   }
 
  #firkin{
-   height:600px;
+   height:580px;
    
  }
  #reggie{
-   height:560px;
+   height:545px;
    
  }
-  
+
+ @media only screen and (max-width: 780px) {
+   #ab_overlay{
+     border:none;
+     font-size:15px;
+     
+   }
+ }
+
+ @media only screen and (max-width: 990px) {
+   #contact {
+     overflow-y:scroll;
+   }
+ }
+
+@media only screen and (max-width: 990px) {
+  #thisZine {
+   margin-left: 25%;
+  }
+}
