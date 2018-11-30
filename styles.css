@@ -50,7 +50,7 @@
     display: block;
     margin-top: -30px;
     margin-bottom: 0px; 
-    overflow:scroll;
+    
 }
 
 #contact {
@@ -240,10 +240,16 @@ h3, h4 {
    #contact {
      overflow-y:scroll;
    }
+
+   #thisZine {
+   margin-left: 25%;
+  }
+
+  #news{
+    overflow:scroll;
+  }
  }
 
 @media only screen and (max-width: 990px) {
-  #thisZine {
-   margin-left: 25%;
-  }
+  
 }
