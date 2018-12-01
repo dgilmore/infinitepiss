@@ -135,15 +135,16 @@ html, body {
   /*style footer*/
   #footerIP {
    background-color:black;
-   padding: 32px;
-   letter-spacing: 30px;      
-   font-size: 50px;
-   background-color:black;
+   padding: 30px;
+   font-size:x-small;
+   font-family: 'Oswald', sans-serif;
    color:white;
-   text-align:center;
-   padding: 32px;
+   
+   
   }
 
+
+  
   /*style font awesome social media buttons*/
   .fab{
     color:white;
