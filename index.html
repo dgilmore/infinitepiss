@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Oswald:500|Roboto" rel="stylesheet">
   
-  <script type="text/javascript">
-    
-  </script>
+  <script type="text/javascript" src="contact.js"></script>
 </head>
 
 <body id="IP_home">
@@ -130,8 +128,8 @@
 
 <span class="flex-container fill" id="contact">
 <br>
-  
-   
+  <form id="contact-form" method="post" action="contact.php" role="form">
+   <div class="messages"></div>
     <div class="row">
      <div class="col-lg-6 offset-lg-0 col-sm-8 offset-sm-1 mb-3">
      <div>
@@ -156,7 +154,7 @@
      
     <div class="row">
        <div class="col-lg-8 col-sm-8 form-group">
-        <select class="form-control" id="submissionType">
+        <select class="form-control" id="submissionType" name="type">
          <option>Band/Musician</option>
          <option>Artist</option>
          <option>Writer</option>
@@ -174,13 +172,13 @@
     
    <div class="row">
       <div class="col-lg-8 col-sm-8 form-group"> 
-        <textarea class="form-control" id="links" rows="3" placeholder="Links to your work"></textarea>
+        <textarea class="form-control" id="links" rows="3" name="links" placeholder="Links to your work"></textarea>
       </div>
     </div>
 
     <div class="row">
       <div class="col-lg-8 col-sm-8 form-group"> 
-        <textarea class="form-control" id="links" rows="3" placeholder="Tell Us More"></textarea>
+        <textarea class="form-control" id="links" rows="3" name="message" placeholder="Tell Us More"></textarea>
       </div>
     </div>
 
@@ -193,6 +191,7 @@
     </div>
   </div>
  </div>
+ </form>
 </span>
 
 
