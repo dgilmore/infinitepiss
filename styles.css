@@ -233,25 +233,26 @@ html, body {
   }
  }
 
+ /*Sstyling for links at bottom of issue2*/
 #guestSocials{
   font-family: 'Oswald', sans-serif;
   letter-spacing: 4px; 
   text-align: center;
   font-size:30px;
 }
-
+ /*Change link color*/
 #guestLink{
   color:black;
 }
-
+/*change color on hover*/
 #guestLink:hover{
   color:gray;
 }
-
+/*change text for last column in link box*/
 #guestFoot{
   color:white;
 }
-
+/*contributor text styling*/
 #conText{
   padding-top: 11px;
   font-family: 'Cantarell', sans-serif;
@@ -261,20 +262,20 @@ html, body {
   
   color:white;
 }
-
+/*fit image into contributor row*/
 #conIm img{
   object-fit: scale-down;
 }
-
+/*change text color for personal links*/
 #conLinks{
   color:white;
   font-family: 'Cantarell', sans-serif;
 }
-
+/*change color of contributr rowr*/
 #conRow{
   background-color:black;
 }
-
+/*sizing and set image url for issue two container*/
 #issueTwoImg{
   position:absolute;
   top: 40px;
@@ -288,7 +289,7 @@ html, body {
   background-position:center;
   
 }
-
+/*change image on hover issue two container*/
 #issueTwoImg:hover{
   background-image: url("issue2web2.png");
   background-color:white;
