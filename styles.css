@@ -274,3 +274,23 @@ html, body {
 #conRow{
   background-color:black;
 }
+
+#issueTwoImg{
+  position:absolute;
+  top: 40px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background-image: url('issue2web.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  
+}
+
+#issueTwoImg:hover{
+  background-image: url("issue2web2.png");
+  background-color:white;
+}
+
