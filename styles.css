@@ -251,3 +251,26 @@ html, body {
 #guestFoot{
   color:white;
 }
+
+#conText{
+  padding-top: 11px;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  display:inline-block;
+  
+  color:white;
+}
+
+#conIm img{
+  object-fit: scale-down;
+}
+
+#conLinks{
+  color:white;
+  font-family: 'Cantarell', sans-serif;
+}
+
+#conRow{
+  background-color:black;
+}
