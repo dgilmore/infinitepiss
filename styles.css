@@ -139,11 +139,12 @@ html, body {
    font-size:x-small;
    font-family: 'Oswald', sans-serif;
    color:white;
-   
-   
   }
 
-
+.ekko-lightbox-nav-overlay a {
+  color: #0062cc;
+    font-size: 50px;
+}
   
   /*style font awesome social media buttons*/
   .fab{
@@ -232,6 +233,21 @@ html, body {
   }
  }
 
-@media only screen and (max-width: 990px) {
-  
+#guestSocials{
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 4px; 
+  text-align: center;
+  font-size:30px;
+}
+
+#guestLink{
+  color:black;
+}
+
+#guestLink:hover{
+  color:gray;
+}
+
+#guestFoot{
+  color:white;
 }
