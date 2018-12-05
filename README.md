@@ -18,7 +18,7 @@ Infinite Piss Website. Includes a homepage, pages for each zine issue a contact 
 ## Built With
 
 * [Ekko Lightbox](https://ashleydw.github.io/lightbox/) - Photo display mechanism 
-* [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - Dependency Management
+* [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - 
 * HTML/CSS/jQuery
 
 ## Authors
