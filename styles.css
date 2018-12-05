@@ -291,7 +291,7 @@ html, body {
 }
 /*change image on hover issue two container*/
 #issueTwoImg:hover{
-  background-image: url("issue2web2.png");
+  background-image: url("issue2Web2.png");
   background-color:white;
 }
 
