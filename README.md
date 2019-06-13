@@ -4,7 +4,7 @@ Infinite Piss is a Portland Area Music & Art Zine. The website for the zine was 
 
 ## Getting Started
 
-* [Visit site](http://web.cecs.pdx.edu/~dwg2/infinitepiss/webdev-project/issueOne.html)
+* [Visit site](http://infinitepiss.com)
 
 
 ## Files
